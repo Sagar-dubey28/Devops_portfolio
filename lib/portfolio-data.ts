@@ -96,8 +96,8 @@ export const PROJECTS = [
       'Java Spring Boot 3.x', 'React 18', 'Vite', 'MongoDB', 'AWS EKS',
       'Terraform', 'Helm', 'JWT', 'OpenAPI',
     ],
-    link: null,
-    linkLabel: 'Repo Coming Soon',
-    available: false,
+    link: 'https://github.com/Sagar-dubey28/Medical-B2B-ERP-System',
+    linkLabel: 'View Source Code',
+    available: true,
   },
 ]
