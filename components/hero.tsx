@@ -43,19 +43,6 @@ export function Hero() {
               <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
                 Hi, I&apos;m Sagar Dubey
               </h1>
-              <div className="group relative inline-flex items-center rounded-full border border-cyan-400/20 bg-[#090D16]/90 px-4 py-2 text-sm text-cyan-100 shadow-[0_0_30px_rgba(34,211,238,0.12)] backdrop-blur-xl transition-all duration-300 hover:border-cyan-300/40">
-                <span className="mr-3 inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.55)] animate-pulse" />
-                AWS Infrastructure: Healthy (99.99% Uptime)
-
-                <div className="pointer-events-none absolute right-0 top-full mt-3 hidden w-72 rounded-3xl border border-cyan-400/20 bg-[#090D16]/95 p-4 text-left text-xs text-slate-200 shadow-[0_0_40px_rgba(34,211,238,0.18)] backdrop-blur-2xl transition-opacity duration-200 group-hover:block">
-                  <p className="font-semibold text-cyan-200">Active Cluster Services</p>
-                  <ul className="mt-3 space-y-2">
-                    <li>• EKS Cluster: Online (v1.28)</li>
-                    <li>• GitOps Engine: ArgoCD Synced</li>
-                    <li>• Security Gateways: Passed</li>
-                  </ul>
-                </div>
-              </div>
             </div>
 
             <p className="max-w-xl text-pretty font-mono text-sm leading-relaxed text-muted-foreground sm:text-base">
