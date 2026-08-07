@@ -47,30 +47,9 @@ export function Projects() {
               {project.title}
             </h3>
 
-            {(project.title === 'End-to-End Microservices CI/CD Platform on AWS EKS' || project.title === 'EduBlitz Medical B2B ERP System') ? (
-              <>
-                <button
-                  type="button"
-                  onClick={() => setActiveProject(project.title)}
-                  className="relative mt-3 rounded-2xl border border-cyan-400/30 bg-cyan-500/10 p-4 text-left transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/50 hover:bg-cyan-500/15"
-                >
-                  <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200">
-                    <Rocket className="size-4" aria-hidden="true" />
-                    View Architecture Flow
-                  </div>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-300">
-                    Explore the deployment architecture, delivery pipelines, and infrastructure layout for this project.
-                  </p>
-                </button>
-                <p className="relative mt-4 text-pretty text-sm leading-relaxed text-muted-foreground">
-                  {project.description}
-                </p>
-              </>
-            ) : (
-              <p className="relative mt-3 text-pretty text-sm leading-relaxed text-muted-foreground">
-                {project.description}
-              </p>
-            )}
+            <p className="relative mt-3 text-pretty text-sm leading-relaxed text-muted-foreground">
+              {project.description}
+            </p>
 
             <ul className="relative mt-5 flex flex-wrap gap-2">
               {project.tags.map((tag) => (
@@ -85,7 +64,23 @@ export function Projects() {
 
             <div className="relative mt-6 flex-1" />
 
-            <div className="relative pt-2">
+            <div className="relative pt-2 space-y-3">
+              {(project.title === 'End-to-End Microservices CI/CD Platform on AWS EKS' || project.title === 'EduBlitz Medical B2B ERP System') && (
+                <button
+                  type="button"
+                  onClick={() => setActiveProject(project.title)}
+                  className="relative w-full rounded-2xl border border-cyan-400/30 bg-cyan-500/10 p-4 text-left transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/50 hover:bg-cyan-500/15 sm:w-auto"
+                >
+                  <div className="flex items-center gap-2 text-sm font-semibold text-cyan-200">
+                    <Rocket className="size-4" aria-hidden="true" />
+                    View Architecture Flow
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed text-slate-300">
+                    Explore the deployment architecture, delivery pipelines, and infrastructure layout for this project.
+                  </p>
+                </button>
+              )}
+
               {project.available && project.link ? (
                 <a
                   href={project.link}
