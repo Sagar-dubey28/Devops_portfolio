@@ -77,18 +77,6 @@ export const SKILL_GROUPS = [
 
 export const PROJECTS = [
   {
-    title: 'End-to-End Microservices CI/CD Platform on AWS EKS',
-    description:
-      'A polyglot microservices platform (e-commerce UI, user, cart, order and payment services) with fully automated, secure GitOps delivery to a multi-AZ EKS cluster.',
-    tags: [
-      'Java', 'Node.js', 'Python', 'Go', 'React', 'AWS EKS', 'Terraform',
-      'Jenkins', 'ArgoCD', 'SonarQube', 'Trivy', 'Helm',
-    ],
-    link: 'https://github.com/Sagar-dubey28/End-to-End-Microservices-CI-CD-Platform-on-AWS-EKS',
-    linkLabel: 'View Source Code',
-    available: true,
-  },
-  {
     title: 'EduBlitz Medical B2B ERP System',
     description:
       'A production-grade medical ERP with three decoupled Spring Boot microservices and a React SPA on S3 + CloudFront, secured with JWT and deployed to EKS via ALB Ingress.',
@@ -97,6 +85,18 @@ export const PROJECTS = [
       'Terraform', 'Helm', 'JWT', 'OpenAPI',
     ],
     link: 'https://github.com/Sagar-dubey28/Medical-B2B-ERP-System',
+    linkLabel: 'View Source Code',
+    available: true,
+  },
+  {
+    title: 'End-to-End Microservices CI/CD Platform on AWS EKS',
+    description:
+      'A polyglot microservices platform (e-commerce UI, user, cart, order and payment services) with fully automated, secure GitOps delivery to a multi-AZ EKS cluster.',
+    tags: [
+      'Java', 'Node.js', 'Python', 'Go', 'React', 'AWS EKS', 'Terraform',
+      'Jenkins', 'ArgoCD', 'SonarQube', 'Trivy', 'Helm',
+    ],
+    link: 'https://github.com/Sagar-dubey28/End-to-End-Microservices-CI-CD-Platform-on-AWS-EKS',
     linkLabel: 'View Source Code',
     available: true,
   },
