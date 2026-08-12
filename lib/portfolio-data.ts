@@ -19,24 +19,27 @@ export const ORBIT_BADGES = [
   { name: 'Prometheus', logo: '/logos/prometheus.svg', color: 'oklch(0.72 0.17 45)' },
 ]
 
-export const METRICS = [
-  { value: '6+', label: 'Months Hands-on Experience' },
-  { value: '2', label: 'Production-Grade EKS Projects' },
-  { value: '10+', label: 'Multi-Stage CI/CD Pipelines' },
-]
+export const PROFESSIONAL_SUMMARY =
+  "DevOps Engineer with hands-on experience in AWS, Linux, Docker, Kubernetes, Terraform, Jenkins, and Git. Worked on CI/CD pipelines for Java Spring Boot, Node.js, and Python applications, including automated builds, security checks, Docker image creation, and Kubernetes deployments. Experienced in provisioning AWS infrastructure with Terraform and deploying containerized workloads on Amazon EKS using Kubernetes and Helm. Familiar with DevSecOps tools including SonarQube and Trivy, monitoring with Prometheus, Grafana, and CloudWatch, and automation using Ansible, Python, and Bash. Familiar with Azure and GCP cloud fundamentals."
 
 export const EXPERIENCE = {
   role: 'DevOps Engineer Intern',
   company: 'HisanLabs Private Limited',
   period: 'Jan 2026 – June 2026',
   highlights: [
-    'Architected zero-downtime Jenkins pipelines triggered via GitHub Webhooks for Java Spring Boot, Node.js and Python FastAPI applications.',
-    'Authored modular Terraform IaC to provision enterprise-grade AWS infrastructure: VPCs, subnets, gateways, security groups, EC2, EBS and EFS.',
-    'Engineered EKS deployment workflows with Kubernetes manifests and Helm charts, applying Rolling Updates and Blue/Green strategies.',
-    'Embedded shift-left DevSecOps using SonarQube and Trivy, plus CloudWatch observability dashboards for proactive incident response.',
-  ],
+  "Worked with Git-based development workflows using feature branches, Gitflow, pull requests, merge conflict resolution, and GitHub Webhooks to trigger automated workflows when changes were pushed to repositories.",
+  "Created and maintained Jenkins CI/CD jobs for Java Spring Boot, Node.js, and Python FastAPI applications, writing Scripted Pipelines and configuring different job types for build, testing, Docker image creation, security checks, and deployment; managed Jenkins Credentials and reused common pipeline logic through Shared Libraries.",
+  "Provisioned AWS infrastructure using Terraform for VPCs, public and private subnets, Internet and NAT Gateways, Security Groups, EC2, EBS, EFS, and IAM roles and policies; configured Route 53, ACM, Application Load Balancers, and Auto Scaling Groups for DNS, TLS termination, traffic routing, and application scaling.",
+  "Created multi-stage Dockerfiles for Java, Node.js, Python, and Go services, separating build dependencies from runtime images and removing unnecessary packages and build artifacts to reduce image size; also worked with Docker networks, volumes, Docker Compose, and image publishing through Docker Hub and Amazon ECR.",
+  "Deployed containerized applications on Amazon EKS using Kubernetes Deployments, Services, ConfigMaps, Secrets, and Ingress; used Helm for Kubernetes application packaging and configuration, and Argo CD for GitOps-based deployment synchronization.",
+  "Used Ansible for basic configuration automation and wrote Python and Bash scripts to automate routine setup and system tasks.",
+  "Integrated SonarQube and Trivy into Jenkins pipelines for automated code-quality analysis and container image vulnerability scanning before deployment, adding security checks to the CI/CD workflow.",
+  "Configured AWS CloudWatch dashboards and alarms for CPU, memory, and API latency monitoring, while handling Linux administration including users and groups, file permissions, process management, log handling, cron jobs, and system-level troubleshooting.",
+  "Set up Prometheus and Grafana for Kubernetes monitoring, using Prometheus to collect application and cluster metrics and Grafana dashboards to track resource usage and service health.",
+  "Worked with Azure and GCP at a fundamental level, exploring core cloud services, IAM, networking, compute resources, and basic deployment workflows.",
+  "Worked with MySQL and MongoDB/MongoDB Atlas for application connectivity, database configuration, access, and connection management."
+ ] 
 }
-
 export const SKILL_GROUPS = [
   {
     title: 'Cloud Platforms',

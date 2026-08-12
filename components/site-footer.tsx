@@ -40,7 +40,7 @@ export function SiteFooter() {
         </div>
 
         <p className="text-center font-mono text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Sagar Dubey. Engineered for Cloud Scalability.
+          © {new Date().getFullYear()} Sagar Dubey. Cloud and Devops Engineer
         </p>
       </div>
     </footer>

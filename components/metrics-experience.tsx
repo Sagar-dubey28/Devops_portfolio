@@ -2,26 +2,23 @@
 
 import { motion } from 'framer-motion'
 import { Briefcase, CheckCircle2 } from 'lucide-react'
-import { METRICS, EXPERIENCE } from '@/lib/portfolio-data'
+import { PROFESSIONAL_SUMMARY, EXPERIENCE } from '@/lib/portfolio-data'
 
 export function MetricsExperience() {
   return (
     <section id="experience" className="relative mx-auto max-w-6xl scroll-mt-20 px-4 py-16 sm:px-6 sm:py-20">
-      {/* metrics bar */}
+      {/* professional summary */}
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        {METRICS.map((m, i) => (
-          <motion.div
-            key={m.label}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.1 }}
-            className="rounded-xl border border-border bg-card/60 p-6 backdrop-blur-sm"
-          >
-            <div className="font-mono text-4xl font-bold text-primary">{m.value}</div>
-            <div className="mt-1 text-sm text-muted-foreground">{m.label}</div>
-          </motion.div>
-        ))}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="rounded-xl border border-border bg-card/60 p-6 backdrop-blur-sm sm:col-span-3"
+        >
+          <h3 className="text-lg font-semibold text-primary">Professional Summary</h3>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{PROFESSIONAL_SUMMARY}</p>
+        </motion.div>
       </div>
 
       {/* experience card */}

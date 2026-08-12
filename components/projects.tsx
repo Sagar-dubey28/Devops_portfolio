@@ -13,7 +13,6 @@ export function Projects() {
       <SectionHeading
         eyebrow="// selected work"
         title="Projects Showcase"
-        subtitle="Production-grade platforms built end-to-end — from Terraform-provisioned infrastructure to GitOps delivery."
       />
 
       <div className="mt-10 grid gap-6 lg:grid-cols-2">
