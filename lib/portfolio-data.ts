@@ -82,10 +82,10 @@ export const PROJECTS = [
   {
     title: 'EduBlitz Medical B2B ERP System',
     description:
-      'A production-grade medical ERP with three decoupled Spring Boot microservices and a React SPA on S3 + CloudFront, secured with JWT and deployed to EKS via ALB Ingress.',
+      'Built and deployed a Medical ERP with Java Spring Boot microservices and React using AWS, Docker, Kubernetes, and MongoDB Atlas. Automated infrastructure with Terraform and CI/CD deployments with Jenkins, Helm, EKS, ALB, S3, CloudFront, and Route 53.',
     tags: [
-      'Java Spring Boot 3.x', 'React 18', 'Vite', 'MongoDB', 'AWS EKS',
-      'Terraform', 'Helm', 'JWT', 'OpenAPI',
+      'Java Spring Boot', 'React 18', 'AWS EKS', 'AWS ALB', 'AWS CloudFront', 'AWS Route53', 'Docker',
+          'kubernetes','Terraform', 'jenkins','Helm', 'MongoDB', 'JWT', 'OpenAPI',
     ],
     link: 'https://github.com/Sagar-dubey28/Medical-B2B-ERP-System',
     linkLabel: 'View Source Code',
@@ -94,10 +94,10 @@ export const PROJECTS = [
   {
     title: 'End-to-End Microservices CI/CD Platform on AWS EKS',
     description:
-      'A polyglot microservices platform (e-commerce UI, user, cart, order and payment services) with fully automated, secure GitOps delivery to a multi-AZ EKS cluster.',
+      'Built and deployed a microservices application using Java, Node.js, Python, Go, React, Docker, and AWS EKS. Set up AWS infrastructure with Terraform and automated CI/CD using Jenkins, GitHub Webhooks, SonarQube, Trivy, and Helm, with Prometheus, Grafana, and CloudWatch for monitoring.',
     tags: [
-      'Java', 'Node.js', 'Python', 'Go', 'React', 'AWS EKS', 'Terraform',
-      'Jenkins', 'ArgoCD', 'SonarQube', 'Trivy', 'Helm',
+      'Java', 'Node.js', 'Python', 'Go', 'React', 'AWS EKS','Docker','Terraform',
+      'Jenkins', 'ArgoCD', 'SonarQube', 'Trivy','Kubernetes', 'Helm'
     ],
     link: 'https://github.com/Sagar-dubey28/End-to-End-Microservices-CI-CD-Platform-on-AWS-EKS',
     linkLabel: 'View Source Code',

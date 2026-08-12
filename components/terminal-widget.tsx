@@ -24,9 +24,9 @@ const COMMANDS: Record<string, string[]> = {
     '  clear               → clear the terminal',
   ],
   whoami: [
-    'Sagar Dubey — Cloud & DevOps Engineer',
+    'Sagar Dubey ,Cloud & DevOps Engineer',
     'Bhopal, Madhya Pradesh, India',
-    'Automating cloud workflows across AWS, K8s, Terraform & Git.',
+    "Automating cloud infrastructure and deployments using AWS, Kubernetes, Terraform, and Jenkins."
   ],
   'cat skills.txt': [
     'AWS (EKS, EC2, VPC, IAM, Lambda, CloudWatch)',
@@ -110,7 +110,7 @@ export function TerminalWidget() {
       <SectionHeading
         eyebrow="// try it yourself"
         title="Interactive Terminal"
-        subtitle="Explore my profile the DevOps way. Type a command and hit enter."
+        subtitle="Type a command and hit enter."
       />
 
       <motion.div

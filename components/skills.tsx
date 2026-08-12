@@ -19,8 +19,8 @@ export function Skills() {
     <section id="skills" className="relative mx-auto max-w-6xl scroll-mt-20 px-4 py-16 sm:px-6 sm:py-20">
       <SectionHeading
         eyebrow="// technical stack"
-        title="Comprehensive Technical Skills"
-        subtitle="A full-spectrum toolkit spanning cloud, containers, GitOps, security and observability."
+        title=" Technical Skills"
+        subtitle=""
       />
 
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
