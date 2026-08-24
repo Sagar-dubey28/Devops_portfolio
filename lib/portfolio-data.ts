@@ -2,7 +2,7 @@ export const SOCIALS = {
   github: 'https://github.com/Sagar-dubey28',
   linkedin: 'https://www.linkedin.com/in/sagar-dubey1900/',
   email: 'mailto:connect.sagardubey@gmail.com',
-  resume: '/Sagar-Dubey-DevOps-Resume.pdf',
+  resume: '/Sagar_Dubey_Resume.pdf',
 }
 
 // Floating tech badges around the profile. `color` is the brand tint applied
