@@ -20,7 +20,7 @@ export const ORBIT_BADGES = [
 ]
 
 export const PROFESSIONAL_SUMMARY =
-  "DevOps Engineer with hands-on experience in AWS, Linux, Docker, Kubernetes, Terraform, Jenkins, and Git. Worked on CI/CD pipelines for Java Spring Boot, Node.js, and Python applications, including automated builds, security checks, Docker image creation, and Kubernetes deployments. Experienced in provisioning AWS infrastructure with Terraform and deploying containerized workloads on Amazon EKS using Kubernetes and Helm. Familiar with DevSecOps tools including SonarQube and Trivy, monitoring with Prometheus, Grafana, and CloudWatch, and automation using Ansible, Python, and Bash. Familiar with Azure and GCP cloud fundamentals."
+  "DevOps Engineer with hands-on experience in AWS, Linux, Docker, Kubernetes, Terraform, Jenkins, and Git. Worked on CI/CD pipelines for Java Spring Boot, Node.js, and Python applications, including automated builds, security checks, Docker image creation, and Kubernetes deployments. Experienced in provisioning AWS infrastructure with Terraform and deploying containerized workloads on Amazon EKS using Kubernetes and Helm. Multicloud with DevSecOps tools including SonarQube and Trivy, monitoring with Prometheus, Grafana, and CloudWatch, and automation using Ansible, Python, and Bash. Familiar with Azure and GCP cloud fundamentals."
 
 export const EXPERIENCE = {
   role: 'DevOps Engineer Intern',
